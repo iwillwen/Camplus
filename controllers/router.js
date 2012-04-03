@@ -80,7 +80,13 @@ module.exports = function (web) {
             Articles.find().toArray(function (err, arts) {
                 res.send(generate((err?[]:arts)), 'text/xml');
             });
-        }
+        },
+        '/addmenu': _(checkAuth, function (req, res) {
+            res.render('addmenu', {
+                title: 'Add a new menu item',
+                local: {}
+            });
+        })
     });
     web.post('/article/create', checkAuth, function (req, res) {
         req.data.url = '/article/' + req.data.url;
@@ -95,11 +101,17 @@ module.exports = function (web) {
             }, function () {});
         });
     });
-    web.post('/admin/login', function (req, res) {
+    web.post('/admin/login', checkAuth, function (req, res) {
         if (req.data.user == config.user && hash('md5', req.data.pass) == config.pass) {
             req.session.user = config.user;
             res.redirect(config.url);
         }
+    });
+    web.post('/addmenu', checkAuth, function (req, res) {
+        Menus.insert(req.data, function (err) {
+            if (err) return res.sendError(500);
+            res.redirect(config.url);
+        });
     });
 };
 

@@ -1,0 +1,13 @@
+link(type='text/css', rel='stylesheet', href='/css/create.less')
+style
+    .item {
+        display: inline-block;
+    }
+form.login-form(method='post', action='/addmenu')
+    .item
+        input(type='text', name='title', placeholder='Title')#title
+    .item
+        input(type='text', name='href', placeholder='Href')#href
+    .item
+        button.submit
+            span.label Add new
