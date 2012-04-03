@@ -1,0 +1,65 @@
+.jazz_button (@color: #F1F1F1) {
+    @light: lighten(@color, 5%);
+    @dark: darken(@color, 5%);
+    @text_shadow: darken(@color, 10%);
+    border: 1px solid @dark;
+    background: @color;
+    background: -webkit-linear-gradient(top, @light, @color);
+    background: -moz-linear-gradient(top, @light, @color);
+    background: -ms-linear-gradient(top, @light, @color);
+    background: -o-linear-gradient(top, @light, @color);
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px 6px 4px 6px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    &:hover {
+        border: 1px solid darken(@dark, 3%);
+        background: darken(@color, 5%);
+        background: -webkit-linear-gradient(top, @light, darken(@color, 3%));
+        background: -moz-linear-gradient(top, @light, darken(@color, 3%));
+        background: -ms-linear-gradient(top, @light, darken(@color, 3%));
+        background: -o-linear-gradient(top, @light, darken(@color, 3%));
+        box-shadow:0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+    .label {
+        font-weight: bold;
+        padding: 0 17px;
+        color: #FFF;
+        text-shadow: 0 1px 0 @text_shadow;
+        text-decoration: none;
+        display: inline-block;
+        overflow: hidden;
+    }
+}
+
+form {
+    padding: 30px 0 0 20px;
+    .item {
+        margin-bottom: 10px;
+        display: block;
+        label {
+            margin-bottom: 5px;
+            display: block;
+        }
+        input, textarea {
+            font-family: "Droid Sans", Tahoma, Arial, sans-serif;
+            display: block;
+            font-size: 14px;
+            width: 568px;
+            border: 1px solid #CCC;
+            padding: 5px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+        textarea {
+            width: 808px;
+            height: 500px;
+        }
+    }
+}
+.submit {
+    .jazz_button(dodgerblue);
+}

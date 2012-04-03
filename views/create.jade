@@ -1,0 +1,21 @@
+link(type='text/css', rel='stylesheet', href='/css/create.less')
+
+form(method="post", action="/create").create-form
+    .item
+        label(for="title") Title
+        input(type="text", name="title")#title
+    .item
+        label(for="title") Url
+        input(type="text", name="url")#url
+    .item
+        label(for="title") Category
+        input(type="text", name="category")#category
+    .item
+        label(for="text") Content
+        textarea(name="content")#content
+    .item
+        button.submit
+            span.label Create
+
+script(src="/js/Markdown.Converter.js")
+script(src="/js/create.js")

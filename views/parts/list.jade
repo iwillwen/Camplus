@@ -1,0 +1,10 @@
+section.main
+    each art in arts
+        article
+            header
+                h2
+                    a(href= art.url)= art.title
+                span.tagline(style="float:right") Posted in 
+                    a(href="/category/#{art.category}")= art.category
+            != art.content
+        br

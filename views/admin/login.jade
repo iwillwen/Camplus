@@ -1,0 +1,13 @@
+link(type='text/css', rel='stylesheet', href='/css/create.less')
+style
+    .item {
+        display: inline-block;
+    }
+form.login-form(method='post', action='/admin/login')
+    .item
+        input(type='text', name='user', placeholder='Username')#user
+    .item
+        input(type='password', name='pass', placeholder='Password')#pass
+    .item
+        button.submit
+            span.label Login

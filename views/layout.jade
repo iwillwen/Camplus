@@ -1,0 +1,29 @@
+html.typo
+    head
+        meta(charset="UTF-8")
+        title= title
+        link(type='text/css', rel='stylesheet', href='/css/typo.css')
+        link(type='text/css', rel='stylesheet', href='/css/style.less')
+        link(rel="alternate", type="application/atom+xml", href="/feed")
+        link(rel="shortcut icon", href="/favicon.png")
+        script(src="/js/jquery.min.js")
+        //
+            script(src="/js/FancyZoom.js")
+            script(src="/js/FancyZoomHTML.js")
+    header
+        h1
+            a(href="/") i-W-Wen
+        .tagline For dreams, for future.
+    != body
+    .clear
+    footer
+        .powered-left
+            | &copy; 2011-2012 Will Wen Gunn
+            br
+            | Powered by
+            a(href="http://camplus.c61.me", target="_blank") Camplus
+            |  + 
+            a(href="https://github.com/iwillwen/webjs") webjs
+        .powered-right
+            a(href="http://www.linode.com/", target="_blank").logo-linode
+            a(href="http://www.nodejs.org", target="_blank").logo-nodejs

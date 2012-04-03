@@ -1,0 +1,117 @@
+* {
+    -webkit-transition: all .20s ease;
+    -moz-transition: all .20s ease;
+    -o-transition: all .20s ease;
+    transition: all .20s ease;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+    font: "Lucida Grande", Mirosoft Yahei, Helvetica, Arial, sans-serif;
+    a {
+        color: #111;
+        font-weight: bold;
+        &:hover {
+            color:#666;
+            text-decoration: none;
+        }
+    }
+    &::-webkit-scrollbar-track-piece{background-color:#fafafa;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-border-bottom-right-radius:8px;-webkit-border-bottom-left-radius:8px;border-top-left-radius:0 0;border-top-right-radius:0 0;border-bottom-right-radius:8px 8px;border-bottom-left-radius:8px 8px}
+    &::-webkit-scrollbar{width:9px;height:15px}
+    &::-webkit-scrollbar-button:start:decrement,&::-webkit-scrollbar-button:end:increment{display:block;height:0;background-color:transparent}
+    &::-webkit-scrollbar-thumb:vertical{height:50px;background-color:#999;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px}
+    &::-webkit-scrollbar-thumb:horizontal{width:50px;background-color:#999;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px}
+}
+header {
+    h1 {
+        margin-bottom: 0 !important;
+        a {
+            font-size: 50px;
+            font-weight: normal;
+        }
+    }
+    .tagline {
+        font: 0.8em serif;
+        color: #888;
+        display: inline-block;
+        margin: 0.1em 0 1.2em;
+    }
+}
+.sidebar {
+    background-color: transparent;
+    width: 150px;
+    text-align: right;
+    float: left;
+    ul {
+        list-style-type: none;
+        li {
+            padding: 0px 0px 5px 0px;
+            font-size: 14px;
+            list-style: none;
+            font-weight: bold;
+            font-family: Helvetica, Georgia, Courier, Monaco;
+            letter-spacing: 1px;
+            a {
+                &:link, &:visited, &:active {
+                    color: #666;
+                    text-decoration: none;
+                    background-color: transparent;
+                    padding: 3px 5px 2px 5px;
+                    -moz-border-radius: 2px;
+                    -webkit-border-radius: 2px;
+                    border: none;
+                }
+                &:hover {
+                    color: #333;
+                    text-decoration: none;
+                    background-color: #F3F3F3;
+                }
+            }
+        }
+    }
+}
+.main {
+    float: right;
+    width: 980px;
+}
+footer {
+    background-color: transparent;
+    color: #999;
+    text-align: left;
+    font-size: 12px;
+    line-height: 10px;
+    font-family: Helvetica, Georgia, Courier, Monaco;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    .powered-right {
+        float: right;
+        text-align: right;
+        padding-right: 30px;
+        a {
+            display: inline-block;
+            zoom: 1;
+            margin-right: 15px;
+            &:hover {
+                opacity: .6;
+                background-color: transparent;
+            }
+        }
+        .logo-nodejs {
+            float: right;
+            width: 67px;
+            height: 18px;
+            background: url("/images/nodejs.png") no-repeat;
+        }
+        .logo-linode {
+            float: right;
+            width: 160px;
+            height: 35px;
+            background: url("/images/linode.png") no-repeat;
+        }
+    }
+    .powered-left {
+        float: left;
+        text-align: left;
+    }
+}
