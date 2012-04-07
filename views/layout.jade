@@ -5,11 +5,11 @@ html.typo
         link(type='text/css', rel='stylesheet', href='/css/typo.css')
         link(type='text/css', rel='stylesheet', href='/css/style.less')
         link(rel="alternate", type="application/atom+xml", href="/feed")
-        link(rel="shortcut icon", href="/favicon.png")
+        link(rel="shortcut icon", href="http://iwen.cnodejs.net/favicon.ico")
         script(src="/js/jquery.min.js")
-        //
-            script(src="/js/FancyZoom.js")
-            script(src="/js/FancyZoomHTML.js")
+         //
+          script(src="/js/FancyZoom.js")
+          script(src="/js/FancyZoomHTML.js")
     header
         h1
             a(href="/") i-W-Wen
@@ -21,9 +21,19 @@ html.typo
             | &copy; 2011-2012 Will Wen Gunn
             br
             | Powered by
-            a(href="http://camplus.c61.me", target="_blank") Camplus
+            a(href="http://wen.c61.me", target="_blank") Camplus
             |  + 
             a(href="https://github.com/iwillwen/webjs") webjs
         .powered-right
             a(href="http://www.linode.com/", target="_blank").logo-linode
             a(href="http://www.nodejs.org", target="_blank").logo-nodejs
+    script
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30591135-1']);
+        _gaq.push(['_setDomainName', 'c61.me']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();

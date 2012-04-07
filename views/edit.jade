@@ -1,6 +1,6 @@
 link(type='text/css', rel='stylesheet', href='/css/create.less')
 
-form(method="post", action="/article/create").create-form
+form(method="post", action="/article/edit").create-form
     .item
         label(for="title") Title
         input(type="text", name="title", value="#{title}")#title
@@ -13,9 +13,10 @@ form(method="post", action="/article/create").create-form
     .item
         label(for="text") Content
         textarea(name="content")#content= content
+    .item(style="display: none")
+        textarea(name="id")#id= id
     .item
         button.submit
-            span.label Create
-
+            span.label Edit
 script(src="/js/Markdown.Converter.js")
-script(src="/js/create.js")
+script(src="/js/edit.js")

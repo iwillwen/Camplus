@@ -9,6 +9,10 @@ section.main
             span.tagline(style="float:right") Posted in 
                 a(href="/category/#{category}")= category
         != content
+        - if (login)
+            a(href="/article/edit/#{url}") EDIT
+            |  | 
+            a(href="/article/remove/#{url}") REMOVE
         #disqus_thread
         script
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

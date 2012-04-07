@@ -1,8 +1,8 @@
 {
-	"title": "your blog name",
-	"description": "your description",
-	"url": "http://yourdomain.com",
-	"user": "yourname",
-	"pass": "your password with md5",
-	"db": "your mongodb address"
+	"title": "i-W-Wen",
+	"description": "小问，来自二次元，JAVASCRIPTER，NODER，FRAMEWORKER，死宅一枚，爱妹纸，爱乙女，爱技术",
+	"url": "http://dev:888",
+	"user": "willwen",
+	"pass": "8ab051a8c96df321042c93fc09975367",
+	"db": "wen.c61.me/camplus"
 }

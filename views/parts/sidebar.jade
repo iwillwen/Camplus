@@ -3,3 +3,15 @@ aside.sidebar
         each menu in menus
             li
                 a(href= menu.href)= menu.title
+    ul.nav
+        - if (login)
+            li
+                a(href="/logout") logout
+            li
+                a(href="/article/create") Create Article
+            li
+                a(href="/addmenu") Create a menu
+        - else
+            li
+                a(href="/login") Login
+    embed(src="http://www.xiami.com/widget/3013178_1770711712,1770711694,1770711695,1770711696,1770711697,1770711698,1770711699,1770711700,1770711701,1770711702,1770711703,1770711704,1770711705,1770711706,1770711707,1770711708,1770711709,1770711710,1770711711,1770711712,_200_346_cccccc_dddddd_1/multiPlayer.swf",type="application/x-shockwave-flash",width="200",height="346",wmode="opaque")

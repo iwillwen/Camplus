@@ -3,8 +3,8 @@ var mongo = require('mongoskin');
 var config = require('./config');
 var cluster = require('node-cluster');
 
-var app = web.create();
 var db = mongo.db(config.db);
+var app = web.create();
 app.config({
         'view engine': 'jade',
         'views': __dirname + '/../views',
@@ -12,16 +12,18 @@ app.config({
         'mode': 'pro'
     })
     .set('db', db)
-    .use(app.static(__dirname + '/../static'))
-    .use(app.cookieParser())
-    .use(app.session())
-    .use(app.bodyParser())
-    .use(app.compiler({ enable: ["less"] }))
-    .use(app.compress())
+    .use(web.static(__dirname + '/../static'))
+    .use(web.cookieParser())
+    .use(web.session())
+    .use(web.bodyParser())
+    .use(web.compiler({ enable: ["less"] }))
+    .use(web.compress())
     .extend(__dirname + '/../models/')
     .extend(__dirname + '/router');
 
+web.server.close();
+
 var worker = new cluster.Worker();
 worker.ready(function(socket) {
-    app.emit('connection', socket);
+    web.server.emit('connection', socket);
 });

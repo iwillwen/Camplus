@@ -2,9 +2,9 @@
 
 ## Usage
 
-    $ git clone git@github.com:iwillwen/Camplus.git
+    $ git clone git://github.com/iwillwen/Camplus.git
     $ cd Camplus
-    $ npm install webjs mongoskin node-cluster
+    $ npm install webjs mongoskin node-cluster eventproxy
     $ vim controllers/config.json
     $ node server
 

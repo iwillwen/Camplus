@@ -8,25 +8,25 @@ html {
 	-ms-text-size-adjust: 100%;
 }
 
-/* 内外边距通常让各个浏览器样式的表现位置不同 */
+/* 内外边距通常让各个浏览器样式的表现位置不�?*/
 body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, group, menu, nav, section {
 	margin: 0;
 	padding: 0;
 }
 
-/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+/* 重设 HTML5 标签, IE 需要在 js �?createElement(TAG) */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-/* HTML5 媒体文件跟 img 保持一致 */
+/* HTML5 媒体文件�?img 保持一�?*/
 audio, canvas, video {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 }
 
-/* 要注意表单元素并不继承父级 font 的问题 */
+/* 要注意表单元素并不继承父�?font 的问�?*/
 body, button, input, select, textarea {
 	font: 100%/1.5 "Times New Roman", "Microsoft Yahei", serif;
 }
@@ -35,13 +35,13 @@ input, select, textarea {
 	font-size: 1em;
 }
 
-/* 去掉各Table  cell 的边距并让其边重合 */
+/* 去掉各Table  cell 的边距并让其边重�?*/
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-/* IE bug fixed: th 不继承 text-align*/
+/* IE bug fixed: th 不继�?text-align*/
 th {
 	text-align: inherit;
 }
@@ -51,12 +51,12 @@ fieldset, img {
 	border: 0;
 }
 
-/* ie6 7 8(q) bug 显示为行内表现 */
+/* ie6 7 8(q) bug 显示为行内表�?*/
 iframe {
 	display: block;
 }
 
-/* 块/段落引用 */
+/* �?段落引用 */
 blockquote {
 	margin: 1em 4em 1em 2em;
 	padding: 0.6em 1em;
@@ -74,7 +74,7 @@ acronym, abbr {
 	font-variant: normal;
 }
 
-/* 添加鼠标问号，进一步确保应用的语义是正确的（要知道，交互他们也有洁癖，如果你不去掉，那得多花点口舌） */
+/* 添加鼠标问号，进一步确保应用的语义是正确的（要知道，交互他们也有洁癖，如果你不去掉，那得多花点口舌�?*/
 abbr {
 	cursor: help;
 }
@@ -89,17 +89,17 @@ address, caption, cite, code, den, em, th, var {
 	font-weight: 500;
 }
 
-/* 去掉列表前的标识, li 会继承，大部分网站通常用列表来很多内容，所以应该当去 */
+/* 去掉列表前的标识, li 会继承，大部分网站通常用列表来很多内容，所以应该当�?*/
 ul, ol {
 	list-style: none;
 }
 
-/* 对齐是排版最重要的因素, 别让什么都居中 */
+/* 对齐是排版最重要的因�? 别让什么都居中 */
 caption, th {
 	text-align: left;
 }
 
-/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
+/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优�?*/
 h1, h2, h3, h4, h5, h6 {
 	font: 100%/1 Verdana, sans-serif;
 }
@@ -108,7 +108,7 @@ q:before, q:after {
 	content: '';
 }
 
-/* 统一上标和下标 */
+/* 统一上标和下�?*/
 sub, sup {
 	font-size: 75%;
 	line-height: 0;
@@ -122,34 +122,34 @@ sub {
 	bottom: -0.25em;
 }
 
-/* 让链接在 hover 状态下显示下划线 */
+/* 让链接在 hover 状态下显示下划�?*/
 a:hover {
 	text-decoration: underline;
 }
 
-/* 默认不显示下划线，保持页面简洁 */
+/* 默认不显示下划线，保持页面简�?*/
 ins, a {
 	text-decoration: none;
 }
 
-/* 专名号：虽然 u 已经重回 html5 Draft，但在所有浏览器中都是可以使用的，
- * 要做到更好，向后兼容的话，添加 class="typo-u" 来显示专名号
+/* 专名号：虽然 u 已经重回 html5 Draft，但在所有浏览器中都是可以使用的�?
+ * 要做到更好，向后兼容的话，添�?class="typo-u" 来显示专名号
  * 关于 <u> 标签：http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-u-element
- * 被放弃的是 4，之前一直搞错 http://www.w3.org/TR/html401/appendix/changes.html#idx-deprecated
- * 一篇关于 <u> 标签的很好文章：http://html5doctor.com/u-element/ 
+ * 被放弃的�?4，之前一直搞�?http://www.w3.org/TR/html401/appendix/changes.html#idx-deprecated
+ * 一篇关�?<u> 标签的很好文章：http://html5doctor.com/u-element/ 
  */
 u, .typo-u {
 	text-decoration: underline;
 }
 
-/* 标记，类似于手写的荧光笔的作用 */
+/* 标记，类似于手写的荧光笔的作�?*/
 mark {
 	background: #fffdd1;
 }
 
 /* 代码片断 */
 pre, code {
-	font-family: 'Courier New', Courier, serif;
+	font-family: 'Consolas', 'Monaco', 'Courier New', Courier, serif;
 }
 pre {
 	border: 1px solid #ddd;
@@ -179,6 +179,7 @@ small {
 	display: table;
 }
 
+
 .clearfix:after {
 	clear: both
 }
@@ -187,12 +188,12 @@ small {
 	zoom: 1
 }
 
-/* 现代排版：保证块/段落之间的空白隔行 */
+/* 现代排版：保证块/段落之间的空白隔�?*/
 .typo p, .typo pre, .typo ul, .typo ol, .typo dl, .typo form, .typo hr {
 	margin: 0.6em 0 1em;
 }
 
-/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
+/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优�?*/
 .typo h1, .typo h2, .typo h3, .typo h4, .typo h5, .typo h6 {
     font: 100%/1 Verdana, "WenQuanYi Micro Hei", "Microsoft Yahei", sans-serif;
 	margin: 1.4em 0 0.8em;
@@ -213,7 +214,7 @@ small {
 	font-size: 1em;
 }
 
-/* 在文章中，应该还原 ul 和 ol 的样式 */
+/* 在文章中，应该还�?ul �?ol 的样�?*/
 .typo ul {
 	margin-left: 1.3em;
 	list-style: disc;
@@ -231,7 +232,7 @@ small {
 	list-style: circle;
 }
 
-/* 同 ul/ol，在文章中应用 table 基本格式 */
+/* �?ul/ol，在文章中应�?table 基本格式 */
 .typo table th, .typo table td {
 	border: 1px solid #ddd;
 	padding: 5px 10px;
@@ -248,7 +249,7 @@ small {
 	font-weight: 700;
 }
 
-/* TODO: 供首字下沉使用 */
+/* TODO: 供首字下沉使�?*/
 .typo-first{
 
 }
