@@ -1,0 +1,404 @@
+[master] new worker forked (27592) for 888
+[master] new worker forked (27593) for 888
+[master] new worker forked (27595) for 888
+[master] new worker forked (27596) for 888
+Recived request: 6ms
+Recived request: 5ms
+Recived request: 5ms
+Recived request: 1ms
+Recived request: 2ms
+Recived request: 3ms
+Recived request: 2ms
+Recived request: 2ms
+Recived request: 1ms
+Recived request: 2ms
+Recived request: 1ms
+Recived request: 1ms
+Refresh to /article/will-s-dark-history
+Refresh to /article/will-s-dark-history
+Refresh to /article/will-s-dark-history
+Refresh to /article/javascript-tools-and-library-simple-design
+Refresh to /article/webjs-introduction
+[worker] 27596 terminated after 1138.039417084815 seconds.
+[worker] 27593 terminated after 1138.048658368054 seconds.
+[worker] 27592 terminated after 1138.0539983289407 seconds.
+[worker] 27595 terminated after 1138.045279307009 seconds.
+[master] new worker forked (27867) for 888
+[master] new worker forked (27868) for 888
+[master] new worker forked (27870) for 888
+[master] new worker forked (27871) for 888
+[worker] 27871 terminated after 348.5660633251914 seconds.
+[worker] 27867 terminated after 348.5835648788602 seconds.
+[worker] 27870 terminated after 348.5722577970414 seconds.
+[worker] 27868 terminated after 348.57617452197655 seconds.
+[master] new worker forked (27890) for 888
+[master] new worker forked (27891) for 888
+[master] new worker forked (27893) for 888
+[master] new worker forked (27895) for 888
+
+
+node.js:201
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+
+node.js:201
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+[master] new worker forked (27898) for 888
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27899) for 888
+[master] new worker forked (27903) for 888
+[master] new worker forked (27904) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+
+[master] new worker forked (27907) for 888
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+ ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+             ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27908) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+[master] new worker forked (27910) for 888
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27913) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27915) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+[master] new worker forked (27917) for 888
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27918) for 888
+[master] new worker forked (27921) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27923) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+[master] new worker forked (27925) for 888
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27926) for 888
+[master] new worker forked (27927) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27931) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+[master] new worker forked (27934) for 888
+[master] new worker forked (27935) for 888
+[master] new worker forked (27937) for 888
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+888:21 times fatal in 60 seconds.
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+888:22 times fatal in 60 seconds.
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+ReferenceError: chechAuth2 is not defined
+    at /root/Camplus/controllers/router.js:49:26
+    at Server.extend (/root/node_modules/webjs/lib/method.js:251:9)
+    at Object.<anonymous> (/root/Camplus/controllers/index.js:22:6)
+    at Module._compile (module.js:441:26)
+    at Object..js (module.js:459:10)
+    at Module.load (module.js:348:31)
+    at Function._load (module.js:308:12)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+888:23 times fatal in 60 seconds.
+888:24 times fatal in 60 seconds.
+[master] new worker forked (28090) for 888
+[master] new worker forked (28091) for 888
+[master] new worker forked (28093) for 888
+[master] new worker forked (28095) for 888
+Recived request: 5ms
+Recived request: 5ms
+Recived request: 6ms

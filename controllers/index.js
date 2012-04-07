@@ -21,9 +21,8 @@ app.config({
     .extend(__dirname + '/../models/')
     .extend(__dirname + '/router');
 
-web.server.close();
 
 var worker = new cluster.Worker();
 worker.ready(function(socket) {
-    web.server.emit('connection', socket);
+    app.emit('connection', socket);
 });

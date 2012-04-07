@@ -25,7 +25,7 @@ module.exports = function (web) {
         });
     }
     web.get({
-        '/': _(checkAuth2, function (req, res) {
+        '/': _(checkAuth2, function (req, res) { 
             var index = new eventproxy();
             index.assign('arts', 'menus', function (arts, menus) {
                 res.render('index', {
@@ -46,18 +46,19 @@ module.exports = function (web) {
                 index.trigger('menus', menus);
             });
         }),
-        '/page/:page': function (req, res) {
+        '/page/:page': _(checkAuth2, function (req, res) {
             Articles.find().skip((Number(req.params.page) - 1) * 10).limit(10).toArray(function (err, arts) {
                 if (err) return res.sendError(404);
                 res.render('index', {
-                    title: req.params.category + ' - ' + config.title,
+                    title: 'Page ' + req.params.page + ' - ' + config.title,
                     local: {
                         menus: [{ title: "Return to Index", href: "/" }],
-                        arts: arts
+                        arts: arts,
+                        login: req.session.login
                     }
                 });
             });
-        },
+        }),
         '/article/create': _(checkAuth, function (req, res) {
             res.render('create', {
                 title: 'Create Article - ' + config.title,
@@ -106,7 +107,7 @@ module.exports = function (web) {
                 });
             });
         }),
-        '/category/:category': function (req, res) {
+        '/category/:category': _(checkAuth2, function (req, res) {
             Categories.findOne({ title: req.params.category }, function (err, cate) {
                 if (err) return res.sendError(404);
                 Articles.find({ category: req.params.category }).toArray(function (err, arts) {
@@ -115,12 +116,13 @@ module.exports = function (web) {
                         title: req.params.category + ' - ' + config.title,
                         local: {
                             menus: [{ title: "Return to Index", href: "/" }],
-                            arts: arts
+                            arts: arts,
+                            login: req.session.login
                         }
                     });
                 });
             });
-        },
+        }),
         '/login': function (req, res) {
             res.render('admin/login', {
                 title: 'Login',
