@@ -1,4 +1,4 @@
-# Camplus - A quickly blog with webjs.
+# Camplus - A quick blog with webjs.
 
 ## Usage
 
